@@ -35,4 +35,3 @@ print('~' * 80)
 print(f'{"ВСЬОГО":<20} {total_quantity:<15} {"x":<10} {total_cost_right_format:<15}')
 print(datetime.now().strftime('%d-%m-%Y %H:%M:%S').rjust(80))
 print('\n\n')
-
