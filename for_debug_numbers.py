@@ -27,7 +27,7 @@ total_cost_right_format = total_cost.quantize(Decimal('1.00'))
 print('\n\n\n')
 print('фіскальний чек'.capitalize().center(80, '~'))
 print('магазин "все для дому"'.upper().center(80))
-print(f'{"Товар":<20} {"Кількість":<15} {"Ціна":<10} {"Вартість":<15}') # Використання f-string для вирівнювання
+print(f'{"Товар":<20} {"Кількість":<15} {"Ціна":<10} {"Вартість":<15}') 
 
 print(f'{item_1_title:<20} {item_1_quantity:<15} {item_1_price:<10} {item_1_total_cost_right_format:<15}')
 print(f'{item_2_title:<20} {item_2_quantity:<15} {item_2_price:<10} {item_2_total_cost_right_format:<15}')
